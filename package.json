@@ -1,0 +1,24 @@
+{
+  "name": "vsint",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@monaco-editor/react": "^4.6.0",
+    "bootstrap": "^5.3.2",
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "y-monaco": "^0.1.5",
+    "y-webrtc": "^10.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0"
+  }
+}
