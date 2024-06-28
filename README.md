@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# **ScriptPlayground**
 
-## Getting Started
+Welcome to **ScriptPlayground**! This project is an online JavaScript interpreter built using the Monaco Editor. It allows you to write, execute, and manage JavaScript files directly in the browser.
 
-First, run the development server:
+## **Features**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Live JavaScript Execution**: Write and execute JavaScript code in real-time.
+- **Multiple File Management**: Create and manage multiple JavaScript files within the editor.
+- **Console Output**: View the output of your JavaScript code execution in a dedicated console section.
+- **Incremental Output Option**: Toggle between replacing console output or appending it incrementally.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## **Used Frameworks & Libraries**
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Next.js**
+- **Bootstrap**
+- **Monaco Editor**
+  
+## **Getting Started**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### **Prerequisites**
 
-## Learn More
+- **Node.js** and **npm** installed on your machine.
+- **React** knowledge is helpful but not required.
 
-To learn more about Next.js, take a look at the following resources:
+### **Installation**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Clone the Repository**:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   ```bash
+   git clone https://github.com/Easquez/ScriptPlayground.git
+   cd ScriptPlayground
 
-## Deploy on Vercel
+2. **Install Dependencies**:
+   npm install
+3. **Start the Development Server**:
+   npm run dev
+4. **Open your Browser**:
+   Go to http://localhost:3000 to view the application.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### **Usage**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. **Write JavaScript Code**:
+   - Use the Monaco Editor to write your JavaScript code.
+
+2. **Run Code**:
+   - Click the **"Run"** button to execute your code.
+   - The console output will appear below the editor.
+
+3. **Create New Files**:
+   - Click the **"+"** button to add a new JavaScript file.
+   - Enter the file name and initial code.
+
+4. **Switch Files**:
+   - Use the buttons at the top to switch between different files.
+
+5. **Clear Console**:
+   - Click the **"Clear"** button to clear the console output.
+
+6. **Toggle Incremental Output**:
+   - Click the **"Increment Line Output"** button to toggle between replacing the console output or appending it incrementally.
