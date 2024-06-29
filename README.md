@@ -27,7 +27,7 @@ Welcome to **ScriptPlayground**! This project is an online JavaScript interprete
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/Easquez/ScriptPlayground.git
+   git clone https://github.com/Easquez/script-playground.git
    cd ScriptPlayground
 
 2. **Install Dependencies**:
